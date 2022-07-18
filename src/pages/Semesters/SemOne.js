@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import { SemContext } from "../../App";
 
 const SemOne = () => {
+  const [semInfo] = useContext(SemContext);
   return (
     <div className="min-h-screen py-10 ">
       <div>
         <h1 className="text-2xl md:text-3xl font-semibold text-center pb-3">
-          Welcome Vijay
+          Welcome {semInfo.username}
         </h1>
         <p className="text-md md:text-lg font-thin text-center pb-4">
-          Semester One
+          Semester {semInfo.Semester}
         </p>
       </div>
       <div class="overflow-x-auto relative">
