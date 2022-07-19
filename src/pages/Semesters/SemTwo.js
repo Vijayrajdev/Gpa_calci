@@ -69,7 +69,7 @@ const SemTwo = () => {
                       </div>
                       <div className="text-lg flex flex-row">
                         <h1 className="font-semibold px-2 py-2">
-                          Your Eqivalent Percentage :
+                          Your Percentage :
                         </h1>
                         <p className="py-2">{percent}</p>
                       </div>
