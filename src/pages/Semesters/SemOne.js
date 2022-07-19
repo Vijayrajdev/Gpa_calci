@@ -34,7 +34,7 @@ const SemOne = () => {
     const SemMark = _.sum(totalSemMark);
     const pgpa = SemMark / 23;
     const gpa = _.round(pgpa, 3);
-    const prc = gpa * 10;
+    const prc = _.round(gpa * 10, 3);
     setGpa(gpa);
     setPercent(prc);
   };

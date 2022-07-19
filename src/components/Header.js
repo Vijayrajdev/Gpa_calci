@@ -20,8 +20,10 @@ const Header = () => {
     setSemInfo({ username: userName, Semester: e.target.value });
   };
 
-  const handleSubmit = async () => {
-    Navigate(`/s${semInfo.Semester}`, setSemModal(false));
+  const handleSubmit = () => {
+    semInfo
+      ? Navigate(`/s${semInfo.Semester}`, setSemModal(false))
+      : Navigate("/", setSemModal(false));
   };
 
   return (
