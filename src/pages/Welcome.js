@@ -66,7 +66,7 @@ const Welcome = () => {
                         <input
                           className="border rounded p-1 placeholder:text-sm md:p-2  outline-blue-200"
                           onChange={handleSemester}
-                          placeholder="1"
+                          placeholder="1 to 5"
                           type="number"
                           name="semester"
                           max="5"
@@ -110,7 +110,14 @@ const Welcome = () => {
               This application is developed and maintained by a ECE Student
               using this application JCE ECE students calculate their GPA.
             </p>
-            <span>
+            <span className="flex gap-8">
+              <button
+                type="button"
+                href="https://vijayraj.netlify.app/"
+                className="text-blue-700 border border-blue-700 hover:bg-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:text-md px-5 py-2.5 text-center mr-3 md:mr-0 "
+              >
+                Contact me
+              </button>
               <button
                 type="button"
                 onClick={(e) => setSemModal(true)}

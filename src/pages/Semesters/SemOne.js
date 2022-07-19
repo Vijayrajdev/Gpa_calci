@@ -2,6 +2,7 @@ import _ from "lodash";
 import React, { useContext, useState } from "react";
 import { SemContext } from "../../App";
 import { MdOutlineClose } from "react-icons/md";
+import "animate.css";
 
 const SemOne = () => {
   const [semInfo] = useContext(SemContext);
@@ -101,7 +102,7 @@ const SemOne = () => {
         ) : null}
       </>
       <div>
-        <h1 className="text-2xl md:text-3xl font-semibold text-center pb-3">
+        <h1 className="text-2xl md:text-3xl font-semibold text-center pb-3 animate__animated animate__jello">
           Welcome {semInfo.username}
         </h1>
         <p className="text-md md:text-lg font-thin text-center pb-4">

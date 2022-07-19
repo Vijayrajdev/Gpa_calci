@@ -99,7 +99,7 @@ const SemThree = () => {
         ) : null}
       </>
       <div>
-        <h1 className="text-2xl md:text-3xl font-semibold text-center pb-3">
+        <h1 className="text-2xl md:text-3xl font-semibold text-center pb-3 animate__animated animate__jello">
           Welcome {semInfo.username}
         </h1>
         <p className="text-md md:text-lg font-thin text-center pb-4">
