@@ -9,6 +9,7 @@ import SemFour from "./pages/Semesters/SemFour";
 import SemFive from "./pages/Semesters/SemFive";
 import Welcome from "./pages/Welcome";
 import { createContext, useState } from "react";
+import SemSix from "./pages/Semesters/SemSix";
 
 export const SemContext = createContext();
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/s3" element={<SemThree />} />
           <Route path="/s4" element={<SemFour />} />
           <Route path="/s5" element={<SemFive />} />
+          <Route path="/s6" element={<SemSix />} />
         </Routes>
         <Footer />
       </div>
