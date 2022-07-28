@@ -71,10 +71,10 @@ const Header = () => {
                         <input
                           className="border rounded p-1 placeholder:text-sm md:p-2 outline-blue-200"
                           onChange={handleSemester}
-                          placeholder="1 to 5"
+                          placeholder="1 to 6"
                           type="number"
                           name="semester"
-                          max="5"
+                          max="6"
                           min="1"
                         />
                       </form>
