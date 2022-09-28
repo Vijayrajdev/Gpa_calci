@@ -156,9 +156,9 @@ const SemFour = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Control Systems Engineering
+                Medical Electronics 
               </th>
-              <td class="py-4 px-6">JEC1003</td>
+              <td class="py-4 px-6">JEC1001</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
