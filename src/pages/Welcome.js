@@ -103,7 +103,7 @@ const Welcome = () => {
       <div className="min-h-screen md:min-h-[80vh] p-8 md:p-12 md:max-w-7xl mx-auto ">
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
           <div className="text-center md:text-justify gap-6 flex flex-col">
-            <h1 className="text-3xl md:text-4xl animate__animated animate__jackInTheBox">
+            <h1 className="text-3xl md:text-5xl font-semibold animate__animated animate__jackInTheBox">
               Welcome to GPA Calci.
             </h1>
             <p className="text-sm md:text-md text-gray-500 max-w-md">
