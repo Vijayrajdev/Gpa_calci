@@ -132,9 +132,9 @@ const SemFour = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                User Interface Design / Any Open Elective
+                Open Elective 1
               </th>
-              <td class="py-4 px-6">JCS9001</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -156,9 +156,9 @@ const SemFour = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Medical Electronics 
+                Professional Elective 1
               </th>
-              <td class="py-4 px-6">JEC1001</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
