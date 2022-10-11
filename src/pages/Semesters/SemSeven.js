@@ -180,7 +180,7 @@ const SemSeven = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Professional Elective
+                Professional Elective 4
               </th>
               <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
@@ -204,7 +204,7 @@ const SemSeven = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Open Elective
+                Open Elective 4
               </th>
               <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>

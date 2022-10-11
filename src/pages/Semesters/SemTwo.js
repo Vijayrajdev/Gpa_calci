@@ -28,7 +28,7 @@ const SemTwo = () => {
       semMark5 * 2,
       semMark6 * 2,
       semMark7 * 3,
-      semMark8 * 3,
+      semMark8 * 0,
     ];
     const SemMark = _.sum(totalSemMark);
     const pgpa = SemMark / 22;
@@ -326,7 +326,7 @@ const SemTwo = () => {
                 Environmental Science
               </th>
               <td class="py-4 px-6">JNC1261</td>
-              <td class="py-4 px-6">3</td>
+              <td class="py-4 px-6">0</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"

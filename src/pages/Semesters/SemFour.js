@@ -324,7 +324,7 @@ const SemFour = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Soft Skills and Aptitude
+                Soft Skills and Aptitude 
               </th>
               <td class="py-4 px-6">JPT1001</td>
               <td class="py-4 px-6">1</td>

@@ -300,7 +300,7 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Technical Skills and Aptitude II
+                Technical Skills and Aptitude 
               </th>
               <td class="py-4 px-6">JPT1002</td>
               <td class="py-4 px-6">1</td>
@@ -324,7 +324,7 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Internship
+                Internship / In-plant training
               </th>
               <td class="py-4 px-6">JEC1641</td>
               <td class="py-4 px-6">1</td>

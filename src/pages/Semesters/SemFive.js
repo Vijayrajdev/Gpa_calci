@@ -276,7 +276,7 @@ const SemFive = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Mini Project Laboratory
+                Mini Project
               </th>
               <td class="py-4 px-6">JEC1521</td>
               <td class="py-4 px-6">1</td>
@@ -300,7 +300,7 @@ const SemFive = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Microprocessor and Microcontroller
+                Microprocessor and Microcontroller (Integrated)
               </th>
               <td class="py-4 px-6">JEE1501</td>
               <td class="py-4 px-6">3</td>
