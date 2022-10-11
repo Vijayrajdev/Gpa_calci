@@ -132,9 +132,9 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Security Practices
+                Open Elective 3
               </th>
-              <td class="py-4 px-6">JCS9009</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -228,9 +228,9 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Satellite Communication
+                Professional Elective 3
               </th>
-              <td class="py-4 px-6">JEC1013</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select

@@ -27,9 +27,9 @@ const SemOne = () => {
       semMark3 * 3,
       semMark4 * 2,
       semMark5 * 2,
-      semMark6 * 2,
+      semMark6 * 3,
       semMark7 * 3,
-      semMark8 * 2,
+      semMark8 * 1,
       semMark9 * 3,
     ];
     const SemMark = _.sum(totalSemMark);
@@ -256,7 +256,7 @@ const SemOne = () => {
                 Communicative English and Soft Skills 1
               </th>
               <td class="py-4 px-6">JHS1121</td>
-              <td class="py-4 px-6">2</td>
+              <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -304,7 +304,7 @@ const SemOne = () => {
                 Physics and Chemistry lab
               </th>
               <td class="py-4 px-6">JPC1111</td>
-              <td class="py-4 px-6">2</td>
+              <td class="py-4 px-6">1</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"

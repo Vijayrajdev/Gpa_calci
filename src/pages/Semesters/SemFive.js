@@ -26,13 +26,13 @@ const SemFive = () => {
       semMark3 * 3,
       semMark4 * 3,
       semMark5 * 2,
-      semMark6 * 2,
-      semMark7 * 2,
+      semMark6 * 1,
+      semMark7 * 1,
       semMark8 * 3,
-      semMark9 * 3,
+      semMark9 * 1,
     ];
     const SemMark = _.sum(totalSemMark);
-    const pgpa = SemMark / 24;
+    const pgpa = SemMark / 20;
     const gpa = _.round(pgpa, 3);
     const prc = gpa * 10;
     setGpa(gpa);
@@ -132,9 +132,9 @@ const SemFive = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Web Design
+                Open Elective 2
               </th>
-              <td class="py-4 px-6">JCS9004</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -156,9 +156,9 @@ const SemFive = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Mobile Communication
+                Professional Elective 2
               </th>
-              <td class="py-4 px-6">JEC1010</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -204,7 +204,7 @@ const SemFive = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Transmission and RF Circuits
+                Transmission lines and RF systems
               </th>
               <td class="py-4 px-6">JEC1502</td>
               <td class="py-4 px-6">3</td>
@@ -255,7 +255,7 @@ const SemFive = () => {
                 Electronics Design Practice Laboratory II
               </th>
               <td class="py-4 px-6">JEC1512</td>
-              <td class="py-4 px-6">2</td>
+              <td class="py-4 px-6">1</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -279,7 +279,7 @@ const SemFive = () => {
                 Mini Project Laboratory
               </th>
               <td class="py-4 px-6">JEC1521</td>
-              <td class="py-4 px-6">2</td>
+              <td class="py-4 px-6">1</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -327,7 +327,7 @@ const SemFive = () => {
                 Professional Communication
               </th>
               <td class="py-4 px-6">JHS1511</td>
-              <td class="py-4 px-6">3</td>
+              <td class="py-4 px-6">1</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"

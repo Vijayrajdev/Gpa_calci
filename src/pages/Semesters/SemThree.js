@@ -301,7 +301,7 @@ const SemThree = () => {
                 Essence of Indian Traditional Knowledge
               </th>
               <td class="py-4 px-6">JNC1361</td>
-              <td class="py-4 px-6">3</td>
+              <td class="py-4 px-6">0</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
