@@ -161,7 +161,7 @@ const SemEight = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                PComprehension and technical seminar
+                Comprehension and technical seminar
               </th>
               <td class="py-4 px-6">JEC1851</td>
               <td class="py-4 px-6">1</td>
