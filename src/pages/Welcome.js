@@ -107,7 +107,7 @@ const Welcome = () => {
               Welcome to GPA Calci.
             </h1>
             <p className="text-sm md:text-md text-gray-500 max-w-md">
-              This application is developed and maintained by a ECE Student
+              This application is developed and maintained by Vijay & Shree
               using this application JCE ECE students calculate their GPA.
             </p>
             <div className="md:flex gap-6">

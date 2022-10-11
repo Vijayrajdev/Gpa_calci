@@ -12,6 +12,7 @@ import { createContext, useState } from "react";
 import SemSix from "./pages/Semesters/SemSix";
 import SemSeven from "./pages/Semesters/SemSeven";
 import SemEight from "./pages/Semesters/SemEight";
+import Contributors from "./pages/Contributors";
 
 export const SemContext = createContext();
 
@@ -23,6 +24,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Welcome />} />
+          <Route path="/contributors" element={<Contributors />} />
           <Route path="/s1" element={<SemOne />} />
           <Route path="/s2" element={<SemTwo />} />
           <Route path="/s3" element={<SemThree />} />
