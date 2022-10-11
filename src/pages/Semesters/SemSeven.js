@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react";
 import { SemContext } from "../../App";
 import { MdOutlineClose } from "react-icons/md";
 
-const SemSix = () => {
+const SemSeven = () => {
   const [semInfo] = useContext(SemContext);
   const [semMark1, setSemMark1] = useState("");
   const [semMark2, setSemMark2] = useState("");
@@ -25,14 +25,14 @@ const SemSix = () => {
       semMark2 * 3,
       semMark3 * 3,
       semMark4 * 3,
-      semMark5 * 3,
-      semMark6 * 2,
+      semMark5 * 1,
+      semMark6 * 3,
       semMark7 * 2,
-      semMark8 * 1,
-      semMark9 * 1,
+      semMark8 * 2,
+      semMark9 * 3,
     ];
     const SemMark = _.sum(totalSemMark);
-    const pgpa = SemMark / 21;
+    const pgpa = SemMark / 23;
     const gpa = _.round(pgpa, 3);
     const prc = gpa * 10;
     setGpa(gpa);
@@ -132,9 +132,9 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Security Practices
+                Optical Communication and Optical Sensor
               </th>
-              <td class="py-4 px-6">JCS9009</td>
+              <td class="py-4 px-6">JEC1701</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -156,9 +156,9 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Communication Networks
+                Embedded sytems and product design
               </th>
-              <td class="py-4 px-6">JEC1601</td>
+              <td class="py-4 px-6">JEC1702</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -180,9 +180,9 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                VLSI Design
+                Professional Elective
               </th>
-              <td class="py-4 px-6">JEC1602</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -204,9 +204,9 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Antenna and Microwave Engineering
+                Open Elective
               </th>
-              <td class="py-4 px-6">JEC1603</td>
+              <td class="py-4 px-6">-</td>
               <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
@@ -228,10 +228,10 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Satellite Communication
+                Entrepreneurship for engineers
               </th>
-              <td class="py-4 px-6">JEC1013</td>
-              <td class="py-4 px-6">3</td>
+              <td class="py-4 px-6">JBA1711</td>
+              <td class="py-4 px-6">1</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -252,10 +252,11 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Communication Networks Laboratory
+                Professional readiness for innovation employability and
+                entrepreneurship
               </th>
-              <td class="py-4 px-6">JEC1611</td>
-              <td class="py-4 px-6">2</td>
+              <td class="py-4 px-6">JGE1701</td>
+              <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -276,9 +277,9 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                VLSI Design Laboratory
+                Optical and microwave laboratory
               </th>
-              <td class="py-4 px-6">JEC1612</td>
+              <td class="py-4 px-6">JEC1711</td>
               <td class="py-4 px-6">2</td>
               <td class="py-4 px-4">
                 <select
@@ -300,10 +301,10 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Technical Skills and Aptitude II
+                Embedded system design lab
               </th>
-              <td class="py-4 px-6">JPT1002</td>
-              <td class="py-4 px-6">1</td>
+              <td class="py-4 px-6">JEC1712</td>
+              <td class="py-4 px-6">2</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -324,10 +325,10 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Internship
+                Project work phase-I
               </th>
-              <td class="py-4 px-6">JEC1641</td>
-              <td class="py-4 px-6">1</td>
+              <td class="py-4 px-6">JEC1731</td>
+              <td class="py-4 px-6">3</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -359,4 +360,4 @@ const SemSix = () => {
   );
 };
 
-export default SemSix;
+export default SemSeven;

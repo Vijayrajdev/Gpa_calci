@@ -18,6 +18,7 @@ const Header = () => {
   const handleSemester = (e) => {
     setSemester(e.target.value);
     setSemInfo({ username: userName, Semester: e.target.value });
+    console.log(semester);
   };
 
   const handleSubmit = () => {
@@ -71,10 +72,10 @@ const Header = () => {
                         <input
                           className="border rounded p-1 placeholder:text-sm md:p-2 outline-blue-200"
                           onChange={handleSemester}
-                          placeholder="1 to 6"
+                          placeholder="1 to 8"
                           type="number"
                           name="semester"
-                          max="6"
+                          max="8"
                           min="1"
                         />
                       </form>

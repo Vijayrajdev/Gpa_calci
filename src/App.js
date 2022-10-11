@@ -10,6 +10,8 @@ import SemFive from "./pages/Semesters/SemFive";
 import Welcome from "./pages/Welcome";
 import { createContext, useState } from "react";
 import SemSix from "./pages/Semesters/SemSix";
+import SemSeven from "./pages/Semesters/SemSeven";
+import SemEight from "./pages/Semesters/SemEight";
 
 export const SemContext = createContext();
 
@@ -27,6 +29,8 @@ function App() {
           <Route path="/s4" element={<SemFour />} />
           <Route path="/s5" element={<SemFive />} />
           <Route path="/s6" element={<SemSix />} />
+          <Route path="/s7" element={<SemSeven />} />
+          <Route path="/s8" element={<SemEight />} />
         </Routes>
         <Footer />
       </div>
