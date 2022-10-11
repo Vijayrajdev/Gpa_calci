@@ -204,7 +204,7 @@ const SemFive = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Transmissin and RF Circuits
+                Transmission and RF Circuits
               </th>
               <td class="py-4 px-6">JEC1502</td>
               <td class="py-4 px-6">3</td>

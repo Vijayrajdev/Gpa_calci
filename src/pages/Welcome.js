@@ -66,10 +66,10 @@ const Welcome = () => {
                         <input
                           className="border rounded p-1 placeholder:text-sm md:p-2  outline-blue-200"
                           onChange={handleSemester}
-                          placeholder="1 to 5"
+                          placeholder="1 to 8"
                           type="number"
                           name="semester"
-                          max="5"
+                          max="8"
                           min="1"
                         />
                       </form>
@@ -110,16 +110,31 @@ const Welcome = () => {
               This application is developed and maintained by a ECE Student
               using this application JCE ECE students calculate their GPA.
             </p>
-            <span className="">
-              <a href="https://vijayraj.netlify.app/" target="_blank">
+            <div className="md:flex gap-6">
+              <span className="">
+                <a
+                  rel="noreferrer"
+                  href="https://vijayraj.netlify.app/"
+                  target={"_blank"}
+                >
+                  <button
+                    type="button"
+                    className="text-blue-700 border border-blue-700 hover:bg-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:text-md px-5 py-2.5 text-center mr-3 md:mr-0 "
+                  >
+                    Contact me
+                  </button>
+                </a>
+              </span>
+              <div className="hidden md:flex md:order-2">
                 <button
                   type="button"
-                  className="text-blue-700 border border-blue-700 hover:bg-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:text-md px-5 py-2.5 text-center mr-3 md:mr-0 "
+                  onClick={(e) => setSemModal(true)}
+                  className="text-white text-sm md:text-md bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center mr-3 md:mr-0 "
                 >
-                  Contact me
+                  Get started
                 </button>
-              </a>
-            </span>
+              </div>
+            </div>
           </div>
           <div className="h-[70vh] animate__animated animate__zoomIn">
             <img src={mainImg} alt="" className="h-full w-full" />

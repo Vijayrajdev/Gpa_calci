@@ -3,36 +3,20 @@ import React, { useContext, useState } from "react";
 import { SemContext } from "../../App";
 import { MdOutlineClose } from "react-icons/md";
 
-const SemSix = () => {
+const SemEight = () => {
   const [semInfo] = useContext(SemContext);
   const [semMark1, setSemMark1] = useState("");
   const [semMark2, setSemMark2] = useState("");
   const [semMark3, setSemMark3] = useState("");
-  const [semMark4, setSemMark4] = useState("");
-  const [semMark5, setSemMark5] = useState("");
-  const [semMark6, setSemMark6] = useState("");
-  const [semMark7, setSemMark7] = useState("");
-  const [semMark8, setSemMark8] = useState("");
-  const [semMark9, setSemMark9] = useState("");
   const [gpa, setGpa] = useState("");
   const [percent, setPercent] = useState("");
   const [gpaModal, setGpaModal] = useState(false);
 
   const handleCalculate = () => {
     setGpaModal(true);
-    const totalSemMark = [
-      semMark1 * 3,
-      semMark2 * 3,
-      semMark3 * 3,
-      semMark4 * 3,
-      semMark5 * 3,
-      semMark6 * 2,
-      semMark7 * 2,
-      semMark8 * 1,
-      semMark9 * 1,
-    ];
+    const totalSemMark = [semMark1 * 0, semMark2 * 9, semMark3 * 1];
     const SemMark = _.sum(totalSemMark);
-    const pgpa = SemMark / 21;
+    const pgpa = SemMark / 10;
     const gpa = _.round(pgpa, 3);
     const prc = gpa * 10;
     setGpa(gpa);
@@ -132,10 +116,10 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Security Practices
+                Indian Constitution
               </th>
-              <td class="py-4 px-6">JCS9009</td>
-              <td class="py-4 px-6">3</td>
+              <td class="py-4 px-6">JNC1861</td>
+              <td class="py-4 px-6">0</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -143,11 +127,8 @@ const SemSix = () => {
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
                 >
                   <option selected="">CG</option>
-                  <option value="10">O</option>
-                  <option value="9">A+</option>
-                  <option value="8">A</option>
-                  <option value="7">B+</option>
-                  <option value="6">B</option>
+                  <option value="1">PASS</option>
+                  <option value="0">FAIL</option>
                 </select>
               </td>
             </tr>
@@ -156,10 +137,10 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                Communication Networks
+                Project work phase-II
               </th>
-              <td class="py-4 px-6">JEC1601</td>
-              <td class="py-4 px-6">3</td>
+              <td class="py-4 px-6">JEC1832</td>
+              <td class="py-4 px-6">9</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
@@ -180,158 +161,14 @@ const SemSix = () => {
                 scope="row"
                 class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
               >
-                VLSI Design
+                PComprehension and technical seminar
               </th>
-              <td class="py-4 px-6">JEC1602</td>
-              <td class="py-4 px-6">3</td>
+              <td class="py-4 px-6">JEC1851</td>
+              <td class="py-4 px-6">1</td>
               <td class="py-4 px-4">
                 <select
                   id="Grade"
                   onChange={(e) => setSemMark3(e.target.value)}
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                >
-                  <option selected="">CG</option>
-                  <option value="10">O</option>
-                  <option value="9">A+</option>
-                  <option value="8">A</option>
-                  <option value="7">B+</option>
-                  <option value="6">B</option>
-                </select>
-              </td>
-            </tr>
-            <tr class="bg-white border-b">
-              <th
-                scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
-              >
-                Antenna and Microwave Engineering
-              </th>
-              <td class="py-4 px-6">JEC1603</td>
-              <td class="py-4 px-6">3</td>
-              <td class="py-4 px-4">
-                <select
-                  id="Grade"
-                  onChange={(e) => setSemMark4(e.target.value)}
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                >
-                  <option selected="">CG</option>
-                  <option value="10">O</option>
-                  <option value="9">A+</option>
-                  <option value="8">A</option>
-                  <option value="7">B+</option>
-                  <option value="6">B</option>
-                </select>
-              </td>
-            </tr>
-            <tr class="bg-white border-b">
-              <th
-                scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
-              >
-                Satellite Communication
-              </th>
-              <td class="py-4 px-6">JEC1013</td>
-              <td class="py-4 px-6">3</td>
-              <td class="py-4 px-4">
-                <select
-                  id="Grade"
-                  onChange={(e) => setSemMark5(e.target.value)}
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                >
-                  <option selected="">CG</option>
-                  <option value="10">O</option>
-                  <option value="9">A+</option>
-                  <option value="8">A</option>
-                  <option value="7">B+</option>
-                  <option value="6">B</option>
-                </select>
-              </td>
-            </tr>
-            <tr class="bg-white border-b">
-              <th
-                scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
-              >
-                Communication Networks Laboratory
-              </th>
-              <td class="py-4 px-6">JEC1611</td>
-              <td class="py-4 px-6">2</td>
-              <td class="py-4 px-4">
-                <select
-                  id="Grade"
-                  onChange={(e) => setSemMark6(e.target.value)}
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                >
-                  <option selected="">CG</option>
-                  <option value="10">O</option>
-                  <option value="9">A+</option>
-                  <option value="8">A</option>
-                  <option value="7">B+</option>
-                  <option value="6">B</option>
-                </select>
-              </td>
-            </tr>
-            <tr class="bg-white border-b">
-              <th
-                scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
-              >
-                VLSI Design Laboratory
-              </th>
-              <td class="py-4 px-6">JEC1612</td>
-              <td class="py-4 px-6">2</td>
-              <td class="py-4 px-4">
-                <select
-                  id="Grade"
-                  onChange={(e) => setSemMark7(e.target.value)}
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                >
-                  <option selected="">CG</option>
-                  <option value="10">O</option>
-                  <option value="9">A+</option>
-                  <option value="8">A</option>
-                  <option value="7">B+</option>
-                  <option value="6">B</option>
-                </select>
-              </td>
-            </tr>
-            <tr class="bg-white border-b">
-              <th
-                scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
-              >
-                Technical Skills and Aptitude II
-              </th>
-              <td class="py-4 px-6">JPT1002</td>
-              <td class="py-4 px-6">1</td>
-              <td class="py-4 px-4">
-                <select
-                  id="Grade"
-                  onChange={(e) => setSemMark8(e.target.value)}
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
-                >
-                  <option selected="">CG</option>
-                  <option value="10">O</option>
-                  <option value="9">A+</option>
-                  <option value="8">A</option>
-                  <option value="7">B+</option>
-                  <option value="6">B</option>
-                </select>
-              </td>
-            </tr>
-            <tr class="bg-white border-b">
-              <th
-                scope="row"
-                class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap"
-              >
-                Internship
-              </th>
-              <td class="py-4 px-6">JEC1641</td>
-              <td class="py-4 px-6">1</td>
-              <td class="py-4 px-4">
-                <select
-                  id="Grade"
-                  onChange={(e) => setSemMark9(e.target.value)}
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
                 >
                   <option selected="">CG</option>
@@ -359,4 +196,4 @@ const SemSix = () => {
   );
 };
 
-export default SemSix;
+export default SemEight;
