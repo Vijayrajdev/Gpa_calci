@@ -1,6 +1,6 @@
 # GPA Calci 🚀💥
 
-This application is developed and maintained by a ECE Student
+This application is developed and maintained by Vijay & Shree
 using this application JCE ECE students calculate their GPA. <br><br>
 [![forthebadge Made with JavaScript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.javascript.com/)
 ![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)
