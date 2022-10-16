@@ -31,7 +31,7 @@ const SemTwo = () => {
       semMark8 * 0,
     ];
     const SemMark = _.sum(totalSemMark);
-    const pgpa = SemMark / 22;
+    const pgpa = SemMark / 19;
     const gpa = _.round(pgpa, 3);
     const prc = _.round(gpa * 10, 3);
     setGpa(gpa);
