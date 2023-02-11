@@ -16,6 +16,7 @@ const SemSix = () => {
   const [semMark9, setSemMark9] = useState("");
   const [gpa, setGpa] = useState("");
   const [percent, setPercent] = useState("");
+  const [semTmark, setSemTmark] = useState("");
   const [gpaModal, setGpaModal] = useState(false);
 
   const handleCalculate = () => {
@@ -37,6 +38,7 @@ const SemSix = () => {
     const prc = gpa * 10;
     setGpa(gpa);
     setPercent(prc);
+    setSemTmark(SemMark);
   };
 
   return (
@@ -73,6 +75,12 @@ const SemSix = () => {
                           Your Percentage :
                         </h1>
                         <p className="py-2">{percent}</p>
+                      </div>
+                      <div className="text-lg flex flex-row">
+                        <h1 className="font-semibold px-2 py-2">
+                          Your Sem Total Marks :
+                        </h1>
+                        <p className="py-2">{semTmark}</p>
                       </div>
                     </div>
                   </div>

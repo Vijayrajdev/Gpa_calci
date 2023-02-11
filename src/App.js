@@ -13,6 +13,7 @@ import SemSix from "./pages/Semesters/SemSix";
 import SemSeven from "./pages/Semesters/SemSeven";
 import SemEight from "./pages/Semesters/SemEight";
 import Contributors from "./pages/Contributors";
+import Cgpa from "./pages/CGPA/cgpa";
 
 export const SemContext = createContext();
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/s6" element={<SemSix />} />
           <Route path="/s7" element={<SemSeven />} />
           <Route path="/s8" element={<SemEight />} />
+          <Route path="/cgpa" element={<Cgpa/>} />
         </Routes>
         <Footer />
       </div>

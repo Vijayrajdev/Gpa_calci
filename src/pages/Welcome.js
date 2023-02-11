@@ -135,6 +135,14 @@ const Welcome = () => {
                 </button>
               </div>
             </div>
+            <div className="text-black">
+              <p className="text-sm md:text-md text-gray-500 max-w-md">
+                Want to know your CGPA?{" "}
+                <span className="text-blue-700 font-semibold hover:text-blue-500">
+                  <a href="/cgpa">Click here!</a>
+                </span>
+              </p>
+            </div>
           </div>
           <div className="h-[70vh] animate__animated animate__zoomIn">
             <img src={mainImg} alt="" className="h-full w-full" />
