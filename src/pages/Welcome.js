@@ -114,7 +114,7 @@ const Welcome = () => {
               <span className="">
                 <a
                   rel="noreferrer"
-                  href="https://vijayraj.netlify.app/"
+                  href="https://vijayraj.vercel.app/"
                   target={"_blank"}
                 >
                   <button
